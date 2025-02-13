@@ -34,7 +34,7 @@
             type="text"
             name="name"
             placeholder="Name"
-            value=""
+            value="{{ name or '' }}"
           />
         </div>
         <div class="form-group">
@@ -45,7 +45,7 @@
             type="text"
             name="phone"
             placeholder="Phone"
-            value=""
+            value="{{ phone or '' }}"
           />
         </div>
         <div class="form-group">
@@ -56,7 +56,7 @@
             type="email"
             name="email"
             placeholder="Email"
-            value=""
+            value="{{ email or '' }}"
           />
         </div>
         <div class="form-group">
@@ -70,7 +70,6 @@
             value=""
           />
         </div>
-
         <button class="btn btn-outline-success" type="submit">Create</button>
       </form>
     </div>

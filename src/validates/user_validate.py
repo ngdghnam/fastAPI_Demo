@@ -7,7 +7,6 @@ async def validate_user_input(
     phone: str = Form(...),
     email: str = Form(...),
     password: str = Form(...)
-
 ) -> dict:
     errors: List[str] = []
 
@@ -21,6 +20,8 @@ async def validate_user_input(
         errors.append("Password is required.")
 
     if errors:
-        return {"errors": errors, "name": name, "phone": phone, "email": email, "password": password}
+        return {"errors": errors, "name": name, "phone": phone,  "email": email, "password": password}
 
-    return {"name": name, "phone": phone, "email": email, "password": password}
+    print({"name": name, "phone": phone,"email": email, "password": password})
+
+    return {"name": name, "phone": phone,"email": email, "password": password}

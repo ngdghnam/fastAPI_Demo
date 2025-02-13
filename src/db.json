@@ -48,6 +48,37 @@
             "phone": "0923905635",
             "email": "namndh22406@st.uel.edu.vn",
             "password": "hoainam11122004"
+        },
+        {
+            "_id": "f4e0a9a7-b890-4315-b8bb-641144c3a3fc",
+            "name": "Meo Meo",
+            "phone": "0923905636"
+        },
+        {
+            "_id": "8d164636-7569-4480-8744-80e3b8a064f3",
+            "name": "Meo Meo",
+            "phone": "0923905636"
+        },
+        {
+            "_id": "1ce259d6-1ba7-4e4f-959f-79377f77b299",
+            "name": "Nguyễn Đặng Hoài Nam",
+            "phone": "0923905635",
+            "email": "nguyendhnam1112@gmail.com",
+            "password": "hoainam3336"
+        },
+        {
+            "_id": "babc9268-e615-40c1-82fe-a4c025282587",
+            "name": "Nguyễn Đặng Hoài Nam",
+            "phone": "0923905635",
+            "email": "nguyendhnam1112@gmail.com",
+            "password": "hoainam1112"
+        },
+        {
+            "_id": "3761e370-5158-48c3-9f4a-bcb3101cb564",
+            "name": "Antony 2008",
+            "phone": "0963789997",
+            "email": "test@gmail.com",
+            "password": "$2b$12$E/GbzHXxsoLN0zU53Nn80eBdO5.YcJncH5isVq8tSTs.mM3vd0qBy"
         }
     ]
 }

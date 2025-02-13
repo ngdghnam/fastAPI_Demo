@@ -2,6 +2,7 @@ from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
+from database import db
 
 # Routers/ Controllers
 from controllers import user_controller 
@@ -35,3 +36,4 @@ async def root(request: Request):
 
 app.include_router(user_controller.router)
 app.include_router(auth_controller.router)
+

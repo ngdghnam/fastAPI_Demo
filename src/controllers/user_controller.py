@@ -41,12 +41,15 @@ async def createUser(
                 {"request": request, **validated_data}
             )
 
+        # Hash password before saving
+        hashed_password = User.hashPassword(validated_data["password"])
+
         # Create and save user
         new_user = User.create(
             name=validated_data["name"], 
             phone=validated_data["phone"], 
             email=validated_data["email"], 
-            password=validated_data["password"]            
+            password=hashed_password            
         )
         new_user.save()
         

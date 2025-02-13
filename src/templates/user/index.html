@@ -15,13 +15,13 @@
     <a href="/user/create" class="btn btn-outline-primary">Create User</a>
     <table class="table">
       <tr>
-        <th>ID</th>
+        <th>Email</th>
         <th>Name</th>
         <th>Phone</th>
       </tr>
       {% for user in users %}
       <tr>
-        <td>{{user._id}}</td>
+        <td>{{user.email}}</td>
         <td>{{user.name}}</td>
         <td>{{user.phone}}</td>
       </tr>
