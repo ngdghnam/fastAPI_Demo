@@ -1,0 +1,53 @@
+{
+    "users": [
+        {
+            "_id": "975c90b7-d5ae-4025-9178-0cffb6a21dda",
+            "name": "Alice",
+            "phone": "0923905635"
+        },
+        {
+            "_id": "8b6446a4-2163-4538-bc4b-865051bd72df",
+            "name": "Name",
+            "phone": "0923905635"
+        },
+        {
+            "_id": "59f92a85-e413-4277-9914-fdf4f4d04809",
+            "name": "Name",
+            "phone": "0923905635"
+        },
+        {
+            "_id": "eb82db79-9bd3-41ec-9b73-304b2a586886",
+            "name": "Nguyễn Đặng Hoài Nam",
+            "phone": "0923905635"
+        },
+        {
+            "_id": "9636be3b-d4ae-42dd-9ff1-223ae2cd18ad",
+            "name": "Lê Minh Nguyên ",
+            "phone": "123456 "
+        },
+        {
+            "_id": "fde8041d-7264-4b06-ba4f-b54555f3abc0",
+            "name": "Vi Đỗ ",
+            "phone": "0923905635 "
+        },
+        {
+            "_id": "834bd318-a2a8-462c-a6b3-b1d20b8bd963",
+            "name": "Vi Đỗ ",
+            "phone": "0923905635 "
+        },
+        {
+            "_id": "2b7bf4db-7ad0-431b-a956-2cdbb365c247",
+            "name": "Hoai Hai",
+            "phone": "0923905635",
+            "email": "namndh22406@st.uel.edu.vn",
+            "password": "hoainam11122004"
+        },
+        {
+            "_id": "8a79d009-c7e8-496c-928e-fc6387de79f5",
+            "name": "Hoai Hai",
+            "phone": "0923905635",
+            "email": "namndh22406@st.uel.edu.vn",
+            "password": "hoainam11122004"
+        }
+    ]
+}
