@@ -79,6 +79,41 @@
             "phone": "0963789997",
             "email": "test@gmail.com",
             "password": "$2b$12$E/GbzHXxsoLN0zU53Nn80eBdO5.YcJncH5isVq8tSTs.mM3vd0qBy"
+        },
+        {
+            "_id": "cba94384-1e20-48f2-bf6f-e73ba3cb72ce",
+            "name": "Antony 2008",
+            "phone": "0963789997",
+            "email": "test@gmail.com",
+            "password": "$2b$12$vu.vMDGyLN.j/eWrqldC1eM8/dVta0ID69Cyp0spOce1Jc./vwUL6"
+        },
+        {
+            "_id": "1ad2980a-c69b-48d5-a927-8e41db105db7",
+            "name": "Heineken ",
+            "phone": "0923496223",
+            "email": "test@gmail.com",
+            "password": "$2b$12$v6.i757TtzWBz.folJRpuejEgH5yQ/wR9ga0NHU1W0YYuo53sL8N6"
+        },
+        {
+            "_id": "b558f61b-f5a8-4e41-aaa5-761bba1c4e3a",
+            "name": "sapporro",
+            "phone": "01234566788",
+            "email": "test@gmail.com",
+            "password": "$2b$12$x9ETLPebmEAAg24DPc.SkOMnqRzuGpSN41OPdWg2VDkENau1atTKK"
+        },
+        {
+            "_id": "1ebe2a59-64dc-4540-853c-ac322fb97845",
+            "name": "learn fullstack",
+            "phone": "01234566788",
+            "email": "test123@gmail.com",
+            "password": "$2b$12$5O/9L8VTs2PpEyuC/PttDOAPe0kYr58pM6BeL63gnUvRQIsofsBZa"
+        },
+        {
+            "_id": "9984e55a-0a27-449f-9f69-a6bfa7d86561",
+            "name": "learn fullstack",
+            "phone": "01234566788",
+            "email": "test123@gmail.com",
+            "password": "$2b$12$aEWafc9QeurjGaGy7bgLyuDkROU.50h/PITyrOF4nk1I7Zgv6g21W"
         }
     ]
 }

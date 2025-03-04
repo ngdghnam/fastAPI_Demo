@@ -1,0 +1,36 @@
+{% extends "layouts/default.html" %} {% block content %}
+<div class="container-fluid">
+  <div class="row gap-1 row-gap-3">
+    {% for product in products %}
+    <div class="card" style="width: 18rem">
+      <div class="card-body">
+        <h5 class="card-title">{{ product.name }}</h5>
+        <p class="card-text">{{ product.description }}</p>
+        <p class="card-text">{{ product.price }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- Pagination Controls -->
+  <div class="pagination mt-4">
+    <nav aria-label="Page navigation">
+      <ul class="pagination">
+        {% if page > 1 %}
+        <li class="page-item">
+          <a class="page-link" href="?page={{ page - 1 }}">Previous</a>
+        </li>
+        {% endif %}
+
+        <li class="page-item active">
+          <span class="page-link">Page {{ page }}</span>
+        </li>
+
+        <li class="page-item">
+          <a class="page-link" href="?page={{ page + 1 }}">Next</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+{% endblock %}

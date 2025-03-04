@@ -1,8 +1,13 @@
 uvicorn
-"fastapi[all]"
+fastapi
 pyjwt # jwt 
-apscheduler # cron scheduler
 passlib # bcrypt
 bcrypt # bcrypt
 jinja2 # template engine
 LightDB
+python-dotenv
+pydantic 
+pydantic-settings
+pymongo 
+re 
+motor 

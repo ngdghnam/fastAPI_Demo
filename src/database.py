@@ -1,3 +1,7 @@
+"""
+Test với file db.json 
+"""
+
 import os
 from lightdb import LightDB
 

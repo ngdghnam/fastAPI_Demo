@@ -21,7 +21,7 @@ cd src
 Start the FastAPI application using Uvicorn:
 
 ```sh
-uvicorn main:app --port 3000 --reload
+uvicorn server:app --reload
 ```
 
 ### Note
@@ -29,7 +29,7 @@ uvicorn main:app --port 3000 --reload
 You can change the port as needed. For example:
 
 ```sh
-uvicorn main:app --port 4000 --reload
+uvicorn server:app --port 4000 --reload
 ```
 
 Replace `4000` with any other available port.

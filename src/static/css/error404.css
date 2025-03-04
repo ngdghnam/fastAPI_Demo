@@ -1,0 +1,50 @@
+.content {
+  margin: 12px 0px;
+  display: flex;
+}
+
+.more-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  line-height: 1.4;
+}
+
+.problem-title {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.problem-desc {
+  font-size: 20px;
+  margin: 16px 0px;
+}
+
+.btns-grp {
+  margin-top: 16px;
+  align-self: flex-start;
+}
+
+.back-btn,
+.help-btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.back-btn {
+  background-color: #4baa66;
+  color: #fff;
+  margin-right: 12px;
+}
+
+.help-btn {
+  background-color: #d8e492;
+  color: #333;
+}
