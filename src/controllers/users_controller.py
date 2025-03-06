@@ -2,6 +2,7 @@ from bson import ObjectId
 from fastapi import APIRouter, Form, HTTPException, Request, File, UploadFile
 from fastapi.responses import HTMLResponse, RedirectResponse, StreamingResponse
 from fastapi.templating import Jinja2Templates
+from fastapi.responses import JSONResponse
 
 import uuid
 
@@ -20,16 +21,13 @@ router = APIRouter(
     tags=["Users"]
 )
 
-@router.get("/", response_class=HTMLResponse)
-async def getUsers(req: Request):
-    users_cursor = userCollection.find()  
+@router.get("/", response_class=JSONResponse)
+async def get_users():
+    users_cursor = userCollection.find()
     users_list = await users_cursor.to_list(None)  # Convert cursor to a list
-    users = listUser(users_list)  # Now pass a proper list
+    users = listUser(users_list)  # Format users if needed
 
-    return templates.TemplateResponse("user/index.html", {
-        "request": req,
-        "users": users 
-    })
+    return JSONResponse(content={"users": users})
 
 @router.get("/create", response_class=HTMLResponse)
 async def renderCreateTemplate(req: Request):
