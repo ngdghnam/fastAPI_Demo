@@ -17,22 +17,15 @@ app = FastAPI()
 # Path to static files 
 app.mount("/static", StaticFiles(directory="static"), name="static") #Link đến folder static
 
-devs = [
-    {'fullName': "Nguyen Dang Hoai Nam", 'role': 'Main Dev'},
-    {'fullName': "Huynh Ngoc Cuong", 'role': 'Backend Dev'},
-    {'fullName': "Duong Thanh Binh", 'role': 'Frontend Dev'},
-    {'fullName': "Minh Tuyen", 'role': 'Designer'},
-    {'fullName': "Vi Do", 'role': 'Designer'},
-    {'fullName': "Le Minh Nguyen", 'role': 'Team Leader'},
-]
+dev = {'fullName': "Nguyen Dang Hoai Nam", 'role': 'Fullstack Developer & Data Engineer'}
 
 # Using templates 
 @app.get("/", response_class=HTMLResponse)
 async def root(request: Request):
     return templates.TemplateResponse("index.html", {
         "request": request, 
-        "message": "This is AI4I's Website",
-        "devs": devs
+        "message": "This is a demo Website",
+        "dev": dev
     })
 
 # 404 Handler

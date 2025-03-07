@@ -1,15 +1,11 @@
 {% extends "layouts/default.html" %} {% block content %}
-<h2 class="text-success">Developer Team</h2>
-<table class="table">
-  <tr>
-    <th>Full Name</th>
-    <th>Role</th>
-  </tr>
-  {% for dev in devs %}
-  <tr>
-    <td>{{dev.fullName}}</td>
-    <td>{{dev.role}}</td>
-  </tr>
-  {% endfor %}
-</table>
+<h2 class="text-primary">Developer</h2>
+<h5 class="text-dark">{{dev.fullName}}</h5>
+<h5 class="text-dark">{{dev.role}}</h5>
+<img
+  src="/static/imgs/bg3.jpg"
+  class="img-fluid"
+  alt="..."
+  style="border-radius: 8px"
+/>
 {% endblock %}

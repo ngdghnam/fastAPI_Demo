@@ -1,13 +1,13 @@
-uvicorn
-fastapi
+uvicorn #server
+fastapi #for web app 
 pyjwt # jwt 
 passlib # bcrypt
 bcrypt # bcrypt
 jinja2 # template engine
-LightDB
-python-dotenv
-pydantic 
-pydantic-settings
-pymongo 
-re 
+LightDB #demo working with light DV 
+python-dotenv #get env variables 
+pydantic #for core tables
+pydantic-settings 
+pymongo #working with mongodb 
+re #normalize text
 motor 
